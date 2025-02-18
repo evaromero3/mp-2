@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+*{
+  background-color: #FFFFC5;
+  color:black;
+  font-family: "Irish Grover", serif;
+}
+
+h1{
+  color: #FF1493;
+}
+
+h2{
+  color:red;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+
+
+
