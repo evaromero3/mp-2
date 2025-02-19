@@ -28,6 +28,8 @@ h2{
   justify-content: center;
 }
 
+/* looked up how to flip on w3schools */
+
 #tree2 {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
