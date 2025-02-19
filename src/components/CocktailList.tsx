@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Cocktail } from "../interfaces/Cocktail";
 import {styled} from "styled-components";
+import palm from "../palm.png";
 
 const SingleCocktailDiv = styled.div`
   margin: 1rem;
@@ -65,7 +66,11 @@ export default function CocktailList(){
 
     return(
         <div>
-            <h1> Welcome to my Cocktail Website!</h1>
+            <div id="title">
+                <img src={palm} alt="palm" width="100"/>
+                <h1> Welcome to my Cocktail Website!</h1>
+                <img id="tree2" src={palm} alt="palm" width="100"/>
+            </div>
             <h2> Please search a cocktail below </h2>
             <input
             type ="text"
